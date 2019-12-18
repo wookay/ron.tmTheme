@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>ron</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#c7c7c7</string>
+            </dict>
+        </dict>
+        <dict> <!-- comment -->
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00c5c7</string>
+            </dict>
+        </dict>
+        <dict> <!-- constant, string -->
+            <key>scope</key>
+            <string>constant.language.julia, constant.numeric.julia, string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff77ff</string>
+            </dict>
+        </dict>
+        <dict> <!-- macro -->
+            <key>scope</key>
+            <string>variable.macro.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#51d6d7</string>
+            </dict>
+        </dict>
+        <dict> <!-- symbol -->
+            <key>scope</key>
+            <string>constant.other.symbol.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#51d6d7</string>
+            </dict>
+        </dict>
+        <dict> <!-- keyword, operator -->
+            <key>scope</key>
+            <string>keyword.other.julia, keyword.operator.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fffc67</string>
+            </dict>
+        </dict>
+        <dict> <!-- type -->
+            <key>scope</key>
+            <string>support.type.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#5ffa68</string>
+            </dict>
+        </dict>
+        <dict> <!-- built-in function -->
+            <key>scope</key>
+            <string>support.function.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00c200</string>
+            </dict>
+        </dict>
+        <dict> <!-- function -->
+            <key>scope</key>
+            <string>variable.function.julia</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00c200</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
